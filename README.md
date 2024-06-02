@@ -49,10 +49,8 @@ you want to replicate my test environment, see the following:
 `podman run -d -p 8983:8983 --name solr_breach solr`
 
 > -d = Run container in background and print container ID
-
 > -p = Publish a container's port, or a range of ports, to the host
 > (default \[\])
-
 > --name = Assign a name to the container
 
 ### Check to see if container is running:
@@ -66,13 +64,9 @@ you want to replicate my test environment, see the following:
 `podman exec -it solr_breach bin/solr create_core -c breach`
 
 > -i, --interactive Keep STDIN open even if not attached
-
 > -t, --tty Allocate a pseudo-TTY. The default is false
-
 > -it = --interactive + --tty
-
 > bin/solr = program on the container to run
-
 > create\_core -c breach = create a core named "breach"
 
 NOTE:
@@ -94,11 +88,8 @@ NOTE: (I ran this in directory where I had file; \$PWD =
 `podman run --rm -v "$PWD:/mydata" --network=host solr bin/solr post -c breach /mydata/soletrade-users.txt.json`
 
 > --rm Remove container (and pod if created) after exit
-
 > -v, --volume stringArray Bind mount a volume into the container
-
 > --network string Connect a container to a network
-
 > bin/solr post -c breach /mydata/soletrade-users.txt.json = post the
 > .json file to the breach core
 
