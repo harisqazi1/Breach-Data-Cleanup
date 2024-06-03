@@ -10,22 +10,6 @@ breaches that ***I have access to***. If you want to request a script
 for a breach that I don't have, you will also have to share the link to
 the breach as well.
 
-Download Specific Folder
-------------------------
-
-If you want to download a specific folder, I would use the following
-tools to do so (I am not affiliated to these services, nor have I
-reviewed them):
-
--   https://githubdownloader.com/
--   https://download-directory.github.io/
--   https://kinolien.github.io/gitzip/
--   https://minhaskamal.github.io/DownGit
-
-Go to the dist folder in each project and use the aforementioned tools
-on it. You might have to run chmod +x binary\_name to make it
-executable. Then run it by adding a ./ before the binary.
-
 Testing Environment
 -------------------
 
