@@ -5,6 +5,8 @@ A set of scripts to cleanup breach data (including combo-lists and
 stealer logs) to normalized formats (CSV and JSON) that can be used with
 indexing solutions. The languages will primarily be Python and Bash.
 
+**Please compare the information of your breach to the one in this repo to make sure the breaches are the same. It is completely possible for me to have limited or incorrect data.**
+
 This is a work in progress. In addition, I can only include scripts for
 breaches that ***I have access to***. If you want to request a script
 for a breach that I don't have, you will also have to share the link to
