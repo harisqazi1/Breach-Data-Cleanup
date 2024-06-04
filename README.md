@@ -110,9 +110,9 @@ informational:
 -   Add the following under `Document(s)`:
 
 ```XML
-    <delete> 
-       <query>*:*</query> 
-    </delete>
+<delete> 
+   <query>*:*</query> 
+</delete>
 ```
 
 -   Hit Submit Button
